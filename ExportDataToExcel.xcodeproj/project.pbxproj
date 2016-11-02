@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53C883E1DAF2DB500C3EDD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C883D1DAF2DB500C3EDD2 /* main.m */; };
+		C53C88411DAF2DB500C3EDD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C88401DAF2DB500C3EDD2 /* AppDelegate.m */; };
+		C53C88441DAF2DB500C3EDD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C88431DAF2DB500C3EDD2 /* ViewController.m */; };
+		C53C88471DAF2DB500C3EDD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53C88451DAF2DB500C3EDD2 /* Main.storyboard */; };
+		C53C88491DAF2DB500C3EDD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53C88481DAF2DB500C3EDD2 /* Assets.xcassets */; };
+		C53C884C1DAF2DB500C3EDD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53C884A1DAF2DB500C3EDD2 /* LaunchScreen.storyboard */; };
+		C53C88571DAF2DB500C3EDD2 /* ExportDataToExcelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C88561DAF2DB500C3EDD2 /* ExportDataToExcelTests.m */; };
+		C53C88621DAF2DB500C3EDD2 /* ExportDataToExcelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C88611DAF2DB500C3EDD2 /* ExportDataToExcelUITests.m */; };
+		C5FF69771DC9F2E3008AAE66 /* LibXL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF69761DC9F2E3008AAE66 /* LibXL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C53C88531DAF2DB500C3EDD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53C88311DAF2DB400C3EDD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53C88381DAF2DB500C3EDD2;
+			remoteInfo = ExportDataToExcel;
+		};
+		C53C885E1DAF2DB500C3EDD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53C88311DAF2DB400C3EDD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53C88381DAF2DB500C3EDD2;
+			remoteInfo = ExportDataToExcel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C53C88391DAF2DB500C3EDD2 /* ExportDataToExcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExportDataToExcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53C883D1DAF2DB500C3EDD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C53C883F1DAF2DB500C3EDD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C53C88401DAF2DB500C3EDD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C53C88421DAF2DB500C3EDD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C53C88431DAF2DB500C3EDD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C53C88461DAF2DB500C3EDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C53C88481DAF2DB500C3EDD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53C884B1DAF2DB500C3EDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C53C884D1DAF2DB500C3EDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53C88521DAF2DB500C3EDD2 /* ExportDataToExcelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExportDataToExcelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53C88561DAF2DB500C3EDD2 /* ExportDataToExcelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExportDataToExcelTests.m; sourceTree = "<group>"; };
+		C53C88581DAF2DB500C3EDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53C885D1DAF2DB500C3EDD2 /* ExportDataToExcelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExportDataToExcelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53C88611DAF2DB500C3EDD2 /* ExportDataToExcelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExportDataToExcelUITests.m; sourceTree = "<group>"; };
+		C53C88631DAF2DB500C3EDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FF69761DC9F2E3008AAE66 /* LibXL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LibXL.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53C88361DAF2DB500C3EDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FF69771DC9F2E3008AAE66 /* LibXL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53C884F1DAF2DB500C3EDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53C885A1DAF2DB500C3EDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53C88301DAF2DB400C3EDD2 = {
+			isa = PBXGroup;
+			children = (
+				C53C883B1DAF2DB500C3EDD2 /* ExportDataToExcel */,
+				C53C88551DAF2DB500C3EDD2 /* ExportDataToExcelTests */,
+				C53C88601DAF2DB500C3EDD2 /* ExportDataToExcelUITests */,
+				C53C883A1DAF2DB500C3EDD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C53C883A1DAF2DB500C3EDD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53C88391DAF2DB500C3EDD2 /* ExportDataToExcel.app */,
+				C53C88521DAF2DB500C3EDD2 /* ExportDataToExcelTests.xctest */,
+				C53C885D1DAF2DB500C3EDD2 /* ExportDataToExcelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53C883B1DAF2DB500C3EDD2 /* ExportDataToExcel */ = {
+			isa = PBXGroup;
+			children = (
+				C5FF69761DC9F2E3008AAE66 /* LibXL.framework */,
+				C53C883F1DAF2DB500C3EDD2 /* AppDelegate.h */,
+				C53C88401DAF2DB500C3EDD2 /* AppDelegate.m */,
+				C53C88421DAF2DB500C3EDD2 /* ViewController.h */,
+				C53C88431DAF2DB500C3EDD2 /* ViewController.m */,
+				C53C88451DAF2DB500C3EDD2 /* Main.storyboard */,
+				C53C88481DAF2DB500C3EDD2 /* Assets.xcassets */,
+				C53C884A1DAF2DB500C3EDD2 /* LaunchScreen.storyboard */,
+				C53C884D1DAF2DB500C3EDD2 /* Info.plist */,
+				C53C883C1DAF2DB500C3EDD2 /* Supporting Files */,
+			);
+			path = ExportDataToExcel;
+			sourceTree = "<group>";
+		};
+		C53C883C1DAF2DB500C3EDD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C53C883D1DAF2DB500C3EDD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C53C88551DAF2DB500C3EDD2 /* ExportDataToExcelTests */ = {
+			isa = PBXGroup;
+			children = (
+				C53C88561DAF2DB500C3EDD2 /* ExportDataToExcelTests.m */,
+				C53C88581DAF2DB500C3EDD2 /* Info.plist */,
+			);
+			path = ExportDataToExcelTests;
+			sourceTree = "<group>";
+		};
+		C53C88601DAF2DB500C3EDD2 /* ExportDataToExcelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C53C88611DAF2DB500C3EDD2 /* ExportDataToExcelUITests.m */,
+				C53C88631DAF2DB500C3EDD2 /* Info.plist */,
+			);
+			path = ExportDataToExcelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53C88381DAF2DB500C3EDD2 /* ExportDataToExcel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53C88661DAF2DB500C3EDD2 /* Build configuration list for PBXNativeTarget "ExportDataToExcel" */;
+			buildPhases = (
+				C53C88351DAF2DB500C3EDD2 /* Sources */,
+				C53C88361DAF2DB500C3EDD2 /* Frameworks */,
+				C53C88371DAF2DB500C3EDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExportDataToExcel;
+			productName = ExportDataToExcel;
+			productReference = C53C88391DAF2DB500C3EDD2 /* ExportDataToExcel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C53C88511DAF2DB500C3EDD2 /* ExportDataToExcelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53C88691DAF2DB500C3EDD2 /* Build configuration list for PBXNativeTarget "ExportDataToExcelTests" */;
+			buildPhases = (
+				C53C884E1DAF2DB500C3EDD2 /* Sources */,
+				C53C884F1DAF2DB500C3EDD2 /* Frameworks */,
+				C53C88501DAF2DB500C3EDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53C88541DAF2DB500C3EDD2 /* PBXTargetDependency */,
+			);
+			name = ExportDataToExcelTests;
+			productName = ExportDataToExcelTests;
+			productReference = C53C88521DAF2DB500C3EDD2 /* ExportDataToExcelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C53C885C1DAF2DB500C3EDD2 /* ExportDataToExcelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53C886C1DAF2DB500C3EDD2 /* Build configuration list for PBXNativeTarget "ExportDataToExcelUITests" */;
+			buildPhases = (
+				C53C88591DAF2DB500C3EDD2 /* Sources */,
+				C53C885A1DAF2DB500C3EDD2 /* Frameworks */,
+				C53C885B1DAF2DB500C3EDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53C885F1DAF2DB500C3EDD2 /* PBXTargetDependency */,
+			);
+			name = ExportDataToExcelUITests;
+			productName = ExportDataToExcelUITests;
+			productReference = C53C885D1DAF2DB500C3EDD2 /* ExportDataToExcelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53C88311DAF2DB400C3EDD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ningcol;
+				TargetAttributes = {
+					C53C88381DAF2DB500C3EDD2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EBUQVM3294;
+						ProvisioningStyle = Automatic;
+					};
+					C53C88511DAF2DB500C3EDD2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C53C88381DAF2DB500C3EDD2;
+					};
+					C53C885C1DAF2DB500C3EDD2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C53C88381DAF2DB500C3EDD2;
+					};
+				};
+			};
+			buildConfigurationList = C53C88341DAF2DB400C3EDD2 /* Build configuration list for PBXProject "ExportDataToExcel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53C88301DAF2DB400C3EDD2;
+			productRefGroup = C53C883A1DAF2DB500C3EDD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53C88381DAF2DB500C3EDD2 /* ExportDataToExcel */,
+				C53C88511DAF2DB500C3EDD2 /* ExportDataToExcelTests */,
+				C53C885C1DAF2DB500C3EDD2 /* ExportDataToExcelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53C88371DAF2DB500C3EDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C884C1DAF2DB500C3EDD2 /* LaunchScreen.storyboard in Resources */,
+				C53C88491DAF2DB500C3EDD2 /* Assets.xcassets in Resources */,
+				C53C88471DAF2DB500C3EDD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53C88501DAF2DB500C3EDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53C885B1DAF2DB500C3EDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53C88351DAF2DB500C3EDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C88441DAF2DB500C3EDD2 /* ViewController.m in Sources */,
+				C53C88411DAF2DB500C3EDD2 /* AppDelegate.m in Sources */,
+				C53C883E1DAF2DB500C3EDD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53C884E1DAF2DB500C3EDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C88571DAF2DB500C3EDD2 /* ExportDataToExcelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53C88591DAF2DB500C3EDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C88621DAF2DB500C3EDD2 /* ExportDataToExcelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C53C88541DAF2DB500C3EDD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53C88381DAF2DB500C3EDD2 /* ExportDataToExcel */;
+			targetProxy = C53C88531DAF2DB500C3EDD2 /* PBXContainerItemProxy */;
+		};
+		C53C885F1DAF2DB500C3EDD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53C88381DAF2DB500C3EDD2 /* ExportDataToExcel */;
+			targetProxy = C53C885E1DAF2DB500C3EDD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C53C88451DAF2DB500C3EDD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53C88461DAF2DB500C3EDD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C53C884A1DAF2DB500C3EDD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53C884B1DAF2DB500C3EDD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C53C88641DAF2DB500C3EDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C53C88651DAF2DB500C3EDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53C88671DAF2DB500C3EDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EBUQVM3294;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExportDataToExcel",
+				);
+				INFOPLIST_FILE = ExportDataToExcel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ningcol.ExportDataToExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C53C88681DAF2DB500C3EDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EBUQVM3294;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExportDataToExcel",
+				);
+				INFOPLIST_FILE = ExportDataToExcel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ningcol.ExportDataToExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C53C886A1DAF2DB500C3EDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExportDataToExcelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ningcol.ExportDataToExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExportDataToExcel.app/ExportDataToExcel";
+			};
+			name = Debug;
+		};
+		C53C886B1DAF2DB500C3EDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExportDataToExcelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ningcol.ExportDataToExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExportDataToExcel.app/ExportDataToExcel";
+			};
+			name = Release;
+		};
+		C53C886D1DAF2DB500C3EDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExportDataToExcelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ningcol.ExportDataToExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExportDataToExcel;
+			};
+			name = Debug;
+		};
+		C53C886E1DAF2DB500C3EDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExportDataToExcelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ningcol.ExportDataToExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExportDataToExcel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53C88341DAF2DB400C3EDD2 /* Build configuration list for PBXProject "ExportDataToExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53C88641DAF2DB500C3EDD2 /* Debug */,
+				C53C88651DAF2DB500C3EDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53C88661DAF2DB500C3EDD2 /* Build configuration list for PBXNativeTarget "ExportDataToExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53C88671DAF2DB500C3EDD2 /* Debug */,
+				C53C88681DAF2DB500C3EDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53C88691DAF2DB500C3EDD2 /* Build configuration list for PBXNativeTarget "ExportDataToExcelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53C886A1DAF2DB500C3EDD2 /* Debug */,
+				C53C886B1DAF2DB500C3EDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53C886C1DAF2DB500C3EDD2 /* Build configuration list for PBXNativeTarget "ExportDataToExcelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53C886D1DAF2DB500C3EDD2 /* Debug */,
+				C53C886E1DAF2DB500C3EDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53C88311DAF2DB400C3EDD2 /* Project object */;
+}
