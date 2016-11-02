@@ -10,7 +10,7 @@
 
 **导出Excel样式**
 
-![demo](demo.PNG)
+![demo](demo.png)
 
 ##Purpose
 
