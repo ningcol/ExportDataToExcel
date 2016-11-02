@@ -17,9 +17,13 @@
 ExportDataToExcel 是一个导出数组至Excel的Demo。
 
 - 在开发时有时候会遇到把tableView等数据导出来统计。
-- **Demo中需要下载[LibXL.framework地址](http://www.libxl.com/download.html)**
+- **Demo中需要下载[LibXL.framework](http://www.libxl.com/download.html)**
 
 
+## Installation
+
+1. 下载[LibXL.framework](http://www.libxl.com/download.html)
+2. 把LibXL.framework 拖入项目
 
 ##Description
 
